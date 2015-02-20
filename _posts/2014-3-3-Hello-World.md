@@ -1,6 +1,7 @@
 ---
 layout: post
-title: You're up and running!
+title: "H!"
+published: true
 ---
 
 Hello world! ;)
