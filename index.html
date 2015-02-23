@@ -6,7 +6,7 @@ layout: default
 
   {% for post in site.posts %}   
 
-    <h1 class="homeindex"><span class="pdate">{{ post.date | date: "%-d %B %Y" }} :</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <h1 class="homeindex"><a class="homeindex" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a><span class="pdate" style="font-size: 12px">{{ post.date | date: "%b %-d, %Y" }}</span></h1>
   
   {% endfor %}
 </div>

@@ -3,19 +3,17 @@ html {font-family: 'Source Code Pro', sans-serif; font-weight: 300; font-size: 1
 
 .ptitle { 
   font-size: 30px; 
-  font-weight: 200; 
+  font-weight: 300; 
   text-align: right; 
-  text-transform: lowercase;
-  color: #DD2E44;
+  color: #000000;
 }
 
 .pdate {
-  text-transform: lowercase;;
-  color: black;
+  color: #000000;
 }
 
 
-.homeindex { font-size: 20px; font-weight: 200; text-align: left;}
+.homeindex { font-size: 25px; font-weight: 300; text-align: left; color: #000000;}
 
 .idl {
   width: 90px;
@@ -34,7 +32,6 @@ html {font-family: 'Source Code Pro', sans-serif; font-weight: 300; font-size: 1
     -o-trasnform: rotate(180deg);
     transform: rotate(180deg);
 } 
-
 
 body {margin: 0;}
 
@@ -63,7 +60,7 @@ hr {
   color: rgba(200,200,200,1);
 }
 
-a { color: #DD2E44; font-weight: 200; text-decoration:none; cursor: pointer; }
+a { color: #000; font-weight: 200; text-decoration:none; cursor: pointer; }
 
 a:hover, a:active { color: rgba(0,0,0,1); font-weight: 300; }
 
@@ -72,8 +69,8 @@ a:hover, a:active { color: rgba(0,0,0,1); font-weight: 300; }
   position: fixed;
   top: 0; left: 0;
   padding: 10px;
-  background-color: rgba(248,248,248,1);
-  color: #DD2E44;
+  background-color: rgba(255,255,255,1);
+  color: #000000;
   border-right: 1px solid rgba(200,200,200,1);
 }
 
@@ -141,7 +138,7 @@ a:hover, a:active { color: rgba(0,0,0,1); font-weight: 300; }
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: "Source Code Pro", sans-serif;
-  color: #DD2E44;
+  color: #000000;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: first blog post
+title: First Blog Post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
