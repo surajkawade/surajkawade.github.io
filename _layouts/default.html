@@ -1,56 +1,67 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<meta charset="utf-8" />
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <meta name="author" content="{{ site.name }}" />
-    <meta name="description" content="{{ site.description }}">
+<title>{% if page.title %}{{ page.title }}, {% endif %}{{ site.name }} {{ site.description }}</title>
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<meta name="author" content="{{ site.name }}" />
+<meta name="description" content="{{ site.description }}">
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div>
+<aside class="aside-left">
 
-    <div id="main" role="main" class="container">
+  <center>
+    <a href="{{ site.baseurl }}/index.html" style="font-size: 22px">./surajkawade</a>
+  </center>
+
+  <br>
+
+  <center><a href="http://twitter.com/surajkawade"><i class="fa fa-twitter"></i></a>
+    <a href="http://github.com/surajkawade"><i class="fa fa-github"></i></a>
+    <a href="http://in.linkedin.com/in/surajkawade/"><i class="fa fa-linkedin"></i>
+  </center>
+
+  <br>
+
+  <center style="font-size: 16px">
+    <a href="{{ site.baseurl }}/">foss blog</a><br>
+    <a href="{{ site.baseurl }}/">random</a><br>
+  </center>
+
+  <br>
+
+  <center>
+    <a href="https://internetdefenseleague.org"><img class="idl" src="https://internetdefenseleague.org/images/badges/final/shield_badge.png" alt="Member of The Internet Defense League"/></a><br>
+    <!--
+    <a href="http://demandprogress.org"><img class="dp" src="http://upload.wikimedia.org/wikipedia/en/c/cb/Demand-Progress-Logo.png" alt="Demand Progress"/></a>-->
+  </center>
+
+  <center id="copyleft">
+    <a href="http://www.gnu.org/copyleft/" target="_blank">&copy;</a><!-- &#x2184;&#x20DD;  COPYLEFT   -->
+  </center>
+
+  <center style="font-size: 12px">
+    copyleft<br>all wrongs reserved
+  </center>
+
+</aside>
+
+<body>
+  
+  <article>
+  <div id="main" role="main" class="container">
       {{ content }}
-    </div>
+  </div>
+  </article>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
-</html>
+  {% include analytics.html %}
+</body>
