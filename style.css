@@ -16,8 +16,8 @@ html {font-family: 'Source Code Pro', sans-serif; font-weight: 300; font-size: 1
 .homeindex { font-size: 25px; font-weight: 300; text-align: left; color: #000000;}
 
 .idl {
-  width: 90px;
-  height: 100px;
+  width: 130px;
+  height: 150px;
 }
 
 .dp {
@@ -32,6 +32,10 @@ html {font-family: 'Source Code Pro', sans-serif; font-weight: 300; font-size: 1
     -o-trasnform: rotate(180deg);
     transform: rotate(180deg);
 } 
+
+.entry {
+    font-size: 19;
+}
 
 body {margin: 0;}
 
