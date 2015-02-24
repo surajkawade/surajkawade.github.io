@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Yeat another web geek.
+Yet another web geek.
 
 ### Contact me
 
-[E-mail](mailto:email@domain.com)
+[E-mail](mailto:suraj.kawade@gmail.com)
