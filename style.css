@@ -84,6 +84,22 @@ a:hover, a:active { color: rgba(0,0,0,1); font-weight: 300; }
   border: 0; height: 0;
 }
 
+.aside-right {
+  width: 450px; height: 100%;
+  position: fixed;
+  top: 0; right: 0;
+  padding: 10px;
+  background-color: rgba(255,255,255,1);
+  color: #C1283B;
+  border-left: 1px solid rgba(200,200,200,1);
+}
+
+.aside-right > p { margin: 0; }
+.aside-right > hr {
+  margin: 0; clear: both;
+  border: 0; height: 0;
+}
+
 #home li {
   overflow: hidden;
   text-overflow: ellipsis;
