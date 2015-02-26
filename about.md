@@ -6,6 +6,6 @@ permalink: /about/
 
 Yet another web geek.
 
-### Contact me
+# Contact me
 
 [E-mail](mailto: suraj.kawade@gmail.com)

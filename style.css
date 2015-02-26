@@ -1,19 +1,20 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,700);
-html {font-family: 'Source Code Pro', sans-serif; font-weight: 300; font-size: 15px;}
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300);
+html {font-family: 'Source Code Pro', sans-serif; font-weight: 300; font-size: 18px;}
 
 .ptitle { 
-  font-size: 30px; 
-  font-weight: 300; 
+  font-size: 35px; 
+  font-weight: 200; 
   text-align: right; 
   color: #C1283B;
 }
 
 .pdate {
+  font-weight: 200;
   color: #C1283B;
 }
 
 
-.homeindex { font-size: 25px; font-weight: 300; text-align: left; color: #C1283B;}
+.homeindex { font-size: 25px; font-weight: 200; text-align: left; color: #C1283B;}
 
 .idl {
   width: 130px;
@@ -34,10 +35,12 @@ html {font-family: 'Source Code Pro', sans-serif; font-weight: 300; font-size: 1
 } 
 
 .entry {
-    font-size: 19;
+    font-size: 20;
 }
 
-body {margin: 0;}
+body {
+  margin: 0;
+}
 
 * { 
   -moz-box-sizing: border-box; 
@@ -48,8 +51,8 @@ body {margin: 0;}
 body > article {
   line-height: 1.6em;
   display: block;
-  max-width: 700px;
-  margin: 30px auto;
+  max-width: 100%;
+  margin: 20px auto;
   padding: 20px 10px 0;
   text-align: justify;
 }
@@ -64,16 +67,16 @@ hr {
   color: rgba(200,200,200,1);
 }
 
-a { color: #C1283B; font-weight: 200; text-decoration:none; cursor: pointer; }
+a { color: #C1283B; font-weight: 300; text-decoration: none; cursor: pointer; }
 
-a:hover, a:active { color: rgba(0,0,0,1); font-weight: 300; }
+a:hover, a:active { color: rgba(0,0,0,1); font-weight: 400; }
 
 .aside-left {
-  width: 250px; height: 100%;
+  width: 200px; height: 100%;
   position: fixed;
   top: 0; left: 0;
   padding: 10px;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(248,248,248,1);
   color: #C1283B;
   border-right: 1px solid rgba(200,200,200,1);
 }
