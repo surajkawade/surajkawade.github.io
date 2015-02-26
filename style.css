@@ -69,7 +69,7 @@ hr {
 
 a { color: #C1283B; font-weight: 300; text-decoration: none; cursor: pointer; }
 
-a:hover, a:active { color: rgba(0,0,0,1); font-weight: 400; }
+a:hover, a:active { color: rgba(0,0,0,1); font-weight: 300; }
 
 .aside-left {
   width: 200px; height: 100%;
